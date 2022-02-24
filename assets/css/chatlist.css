@@ -1,0 +1,90 @@
+.wrap {
+    display: flex;
+    justify-content: center; }
+@font-face {
+    src:url(../fonts/SCDream4.otf); 
+    font-family: "SCDream4";
+}
+
+h3 {
+    font-size: 20px;
+    font-family: 'SCDream4'; }
+
+#sub {
+    margin-left: 0px;
+    border-bottom: 1px solid #686099;
+    text-align: left; }
+
+.button {
+    width: 120px;
+    height: 40px;
+    display: block;
+    font-weight: 400;
+    font-size: 12px;
+    padding: 10px;
+    border: none;    
+    cursor: pointer; 
+    background: #686099;
+    color: #fff;
+    font-family: 'SCDream4';
+    margin: 0px 0px 0px 460px; }
+    .button:hover{
+        background-color: #4b4b7a;} 
+ol {
+    list-style: none;
+}
+li {
+    width: 600px; height: 160px;
+    box-shadow: 0.25rem 0.25rem 0.6rem rgba(0,0,0,0.05), 0 0.5rem 1.125rem rgba(75,0,0,0.05);
+    counter-increment: gradient-counter;
+    margin-top: 1rem;
+    min-height: 3rem;
+    padding: 1rem 1rem 1rem 1rem;
+    position: relative; }
+
+/*ol li:nth-of-type(2) {
+    animation: slide-up 1s;
+}
+
+ol li:nth-of-type(3) {
+    animation: slide-up 1.5s;
+}
+
+ol li:nth-of-type(4) {
+    animation: slide-up 2s;}
+
+
+@keyframes slide-up {
+    0% {
+        opacity: 0;
+        transform: translateY(5rem);
+    }
+}*/
+
+#img {
+    float: left;
+    width: 120px; height: 120px;
+    margin: 10px;
+}
+
+label {
+    float: left;
+    font-size: 12px;
+    font-weight: bold;
+    font-family: 'SCDream4';
+    margin: 5px; }
+p {
+    width: 360px; height: 40px;
+    float: left;
+    font-size: 14px;
+    font-family: 'SCDream4';
+    margin: 5px; }
+#recent {
+    width: 400px; height: 55px; 
+}
+
+.clearfix {*zoom:1;}
+.clearfix:before, .clearfix:after {
+    display: block; content: ""; line-height: 0;
+}
+.clearfix:after {clear: both;}

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sign Up Form by Colorlib</title>
+
+    <!-- Font Icon -->
+    <link rel="stylesheet" href="fonts/material-icon/css/material-design-iconic-font.min.css">
+
+    <!-- Main css -->
+    <link rel="stylesheet" href="../assets/ref/style.css">
+</head>
+<body>
+
+    <div class="main">
+        <div class="container">
+            <div class="signup-content">                
+                <div class="signup-form">
+                    <form method="POST" class="register-form" id="register-form">
+                        <h2>회원가입</h2>
+                        <div class="form-row">
+                            <div class="clearfix">
+                                <label for="userId">아이디 :</label>
+                                <input type="text" name="" id="userId" placeholder="아이디를 입력해주세요" required />
+                                <button>중복확인</button>
+                            </div>
+                            <div class="clearfix">
+                                <label id="userPw">비밀번호</label>
+                                <input id="userPw" type="password" name="" value="" placeholder="비밀번호를 입력해주세요">
+                            </div>
+                            <div class="clearfix">
+                                <label id="pwCheck">비밀번호 확인</label>
+                                <input id="pwCheck" type="password" name="" value="" placeholder="비밀번호를 다시 한 번 입력해주세요">
+                            </div>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="clearfix">
+                                <label for="userName">이름</label>
+                                <input id="userName" type="text" name="" value="" placeholder="이름을 입력해주세요">
+                            </div>
+                            <div class="clearfix">
+                                <label for="userSn">주민번호</label>
+                                <input id="userSn" type="text" name="" value="">-<input type="password" name="" value="">
+                            </div>
+                            <div class="clearfix">
+                                <label for="userHp">휴대폰</label>
+                                <input id="userHp" type="text" name="" value="" placeholder="숫자만 입력해주세요">
+                                <button>인증번호 받기</button>
+                            </div>
+                        </div>
+                        
+                        <div class="form-radio">
+                            <div class="clearfix">
+                                <label for="gender" class="radio-label">성별 :</label>
+
+                                <div class="form-radio-item">
+                                    <input type="radio" name="gender" id="female">
+                                    <label for="female">여자</label>
+                                    <span class="check"></span>
+                                </div>
+                                <div class="form-radio-item">
+                                    <input type="radio" name="gender" id="male" checked>
+                                    <label for="male">남자</label>
+                                    <span class="check"></span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="form-group clearfix">                            
+                            <label for="mbti">Course :</label>
+                            <div class="form-select">
+                                <select name="mbti" id="mbti">
+                                    <option value=""></option>
+                                    <option value="ISTJ">ISTJ</option>
+                                    <option value="ISTP">ISTP</option>
+                                    <option value="ISFJ">ISFJ</option>
+                                    <option value="ISFP">ISFP</option>
+                                    <option value="INFJ">INFJ</option>
+                                    <option value="INFP">INFP</option>
+                                    <option value="INTJ">INTJ</option>
+                                    <option value="INTP">INTP</option>
+                                    <option value="ESTP">ESTP</option>
+                                    <option value="ESTJ">ESTJ</option>
+                                    <option value="ESFP">ESFP</option>
+                                    <option value="ESFJ">ESFJ</option>
+                                    <option value="ENFP">ENFP</option>
+                                    <option value="ENFJ">ENFJ</option>
+                                    <option value="ENTP">ENTP</option>
+                                    <option value="ENTJ">ENTJ</option>
+                                </select>
+                                <span class="select-icon"><i class="zmdi zmdi-chevron-down"></i></span>
+                            </div>
+                        </div>
+                       
+                        <div class="form-submit">
+                            <input type="submit" value="Reset All" class="submit" name="reset" id="reset" />
+                            <input type="submit" value="Submit Form" class="submit" name="submit" id="submit" />
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- JS -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+</body><!-- This templates was made by Colorlib (https://colorlib.com) -->
+</html>

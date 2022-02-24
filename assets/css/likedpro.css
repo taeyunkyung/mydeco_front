@@ -1,0 +1,65 @@
+.wrap {
+    display: flex;
+    justify-content: center; }
+@font-face {
+    src:url(../fonts/SCDream4.otf); 
+    font-family: "SCDream4";
+}
+#main-content {
+    width: 800px;
+}
+h3 {
+    font-size: 20px;
+    font-family: 'SCDream4'; }
+
+#sub {
+    margin-left: 0px;
+    border-bottom: 1px solid #686099;
+    text-align: left; }
+
+.content {
+    width: 140px; height: 180px;
+    float: left;
+    box-shadow: 0.25rem 0.25rem 0.6rem rgba(0,0,0,0.05), 0 0.5rem 1.125rem rgba(75,0,0,0.05);
+    counter-increment: gradient-counter;
+    margin: 1rem 0.5rem 0.5rem 0.5rem;
+    min-height: 3rem;
+    padding: 1rem 1rem 1rem 1rem;
+    position: relative; 
+}
+.clearfix {*zoom:1;}
+.clearfix:before, .clearfix:after {
+    display: block; content: ""; line-height: 0;
+}
+.clearfix:after {clear: both;}
+#first {
+    margin-left: 35px;
+}
+
+.img {
+    width: 120px; height:120px;
+}
+label {
+    text-align: center;    
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'SCDream4';
+    margin: 3px; }
+p {
+    font-size: 10px;
+    font-family: 'SCDream4';
+    margin: 3px; }
+
+.button {
+    height: 20px;
+    font-size: 8px;
+    border: 1px solid #6667AB;
+    background: #fff;
+    font-family: 'SCDream4';
+    color: #6667AB; }
+    .button:hover {
+        background-color: #ebebeb; }
+.btnArea {
+    display: flex;
+    justify-content: right; 
+}

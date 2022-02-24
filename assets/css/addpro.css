@@ -1,0 +1,142 @@
+.wrap {
+    display: flex;
+    justify-content: center; }
+@font-face {
+    src:url(../fonts/SCDream4.otf); 
+    font-family: "SCDream4";
+} 
+
+table {
+    width:800px; }
+td {
+    padding: 10px; }
+
+a:focus, a:active {
+    text-decoration: none;
+    outline: none;
+    transition: all 300ms ease 0s;
+    -moz-transition: all 300ms ease 0s;
+    -webkit-transition: all 300ms ease 0s;
+    -o-transition: all 300ms ease 0s;
+    -ms-transition: all 300ms ease 0s; }
+    
+input, select, textarea {
+    outline: none;
+    appearance: unset !important;
+    -moz-appearance: unset !important;
+    -webkit-appearance: unset !important;
+    -o-appearance: unset !important;
+    -ms-appearance: unset !important; }
+          
+input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
+    appearance: none !important;
+    -moz-appearance: none !important;
+    -webkit-appearance: none !important;
+    -o-appearance: none !important;
+    -ms-appearance: none !important;
+    margin: 0; }    
+          
+input:focus, select:focus, textarea:focus {
+    outline: none;
+    box-shadow: none !important;
+    -moz-box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    -o-box-shadow: none !important;
+    -ms-box-shadow: none !important; }
+
+input:-webkit-autofill {
+    box-shadow: 0 0 0 30px transparent inset;
+    -moz-box-shadow: 0 0 0 30px transparent inset;
+    -webkit-box-shadow: 0 0 0 30px transparent inset;
+    -o-box-shadow: 0 0 0 30px transparent inset;
+    -ms-box-shadow: 0 0 0 30px transparent inset; }    
+
+input, select, textarea {
+    display: inline-block;
+    width: 100%;
+    border: 1px solid #ebebeb;
+    padding: 11px 20px;
+    box-sizing: border-box;
+    font-family: 'SCDream4';
+    font-weight: 500;
+    font-size: 13px; }
+    input:focus, select:focus {
+        border: 1px solid #686099; }
+       
+h3 {
+    font-size: 20px;
+    font-family: 'SCDream4'; }
+
+#sub {
+    margin-left: 0px;
+    border-bottom: 1px solid #686099;
+    text-align: left; }
+
+#imgarea {
+    width: 200px; height: 160px;
+}
+
+#btn-right {
+    padding-top: 10px;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: center;
+} 
+
+input[type="file"] {
+    visibility: hidden;
+    width:0px; height:0px;
+}
+label {
+    margin-right: 160px;
+    width:120px;
+    height: 18px;
+    text-align: center;
+    font-size: 13px;
+    font-family: 'SCDream4';
+    padding: 10px;
+    border: 1px solid #686099;    
+    cursor: pointer; 
+    background: #fff;
+    color: #757686; }
+    label:hover{
+        background-color: #ebebeb;}
+
+.button {
+    width: 120px;
+    height: 40px;
+    display: block;
+    font-weight: 400;
+    font-size: 13px;
+    padding: 10px;
+    border: 1px solid #6667AB;    
+    cursor: pointer; 
+    background: #fff;
+    color: #757686; }
+    .button:hover{
+        background-color: #ebebeb;}   
+
+#long {
+    width:240px; }
+
+textarea {
+    width: 760px;
+    height: 200px;
+    margin-left: 40px;
+}
+
+#submit {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+#submitBtn {
+    width: 140px;
+    height: 40px;
+    border: none;
+    background: #686099;
+    color: #fff;
+    margin-left: 5px; }
+    #submitBtn:hover {
+        background-color: #4b4b7a;}
+    

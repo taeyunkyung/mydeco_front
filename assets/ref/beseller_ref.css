@@ -1,0 +1,60 @@
+.list ul .text {
+float: left;
+font-size: 1rem;
+cursor: pointer;
+transition: all .3s ease-in-out;
+}
+
+ul li:nth-of-type(2) {
+    animation: slide-up 1s;
+}
+
+ul li:nth-of-type(3) {
+    animation: slide-up 1.5s;
+}
+
+ul li:nth-of-type(4) {
+    animation: slide-up 2s;
+}
+
+@keyframes slide-up {
+    0% {
+        opacity: 0;
+        transform: translateY(5rem);
+    }
+}
+*/
+.list ul{
+position: relative;
+    z-index: 2; 
+box-sizing: border-box;
+float: right;
+width: 20px;
+height: 20px;
+border: 1px solid fade-out(#686099, .5);
+border-radius: 50%;
+cursor: pointer;
+}
+
+.list ul {
+position: absolute;
+stroke: rgba(100, 58, 122, .5);
+fill: none;
+stroke-dashoffset: 340;
+stroke-dasharray: 360;
+}
+
+/*ul li .wrapper {
+    position: absolute;
+    width: 20px;
+    right: 0;
+}*/
+
+@keyframes dash {
+0% {
+    stroke-dashoffset: 340;
+}
+100% {
+    stroke-dashoffset: 0;
+}
+}

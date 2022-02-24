@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <title>My Deco</title>
+        <link rel="stylesheet" href="./assets/css/addpro.css">
+    </head>
+
+    <body>
+    
+        <div class="wrap">
+            <div id="header"></div>
+    
+            <div class="container">
+                <div id="aside" class="clearfix"></div>
+                
+                <div id="main-content">
+                    <form action="" method="">
+                        <table>
+                            <tr>
+                                <td id="sub" colspan="3">
+                                    <h3>새 상품 등록</h3>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td rowspan="3">
+                                    <div id="imgarea">
+                                        <img src="">
+                                    </div>
+                                </td>
+                                <td colspan="2"><input id="title" type="text" name="" value="" placeholder="제목을 입력해주세요"></td>
+                            </tr>
+                            <tr>
+                                <td><input id="price" type="text" name="" value="" placeholder="가격을 자유롭게 입력해주세요"></td>
+                                <td>
+                                    <select id="emotion" name="" value="">
+                                        <option value="">감정을 선택해주세요</option>
+                                        <option value="sad">슬픔</option>
+                                        <option value="angry">화남</option>
+                                        <option value="happy">기쁨</option>
+                                        <option value="irritated">짜증</option>
+                                        <option value="relieved">홀가분</option>
+                                    </select>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="2">
+                                    <select id="delivery" name="" value="">
+                                        <option value="">배송방법을 선택해주세요</option>
+                                        <option value="postoffice">우체국</option>
+                                        <option value="cs">편의점</option>
+                                        <option value="direct">직거래</option>
+                                    </select>
+                                </td>
+                            </tr>
+                        </table>
+
+                        <div id="btn-right">
+                            <input id="imgfile" type="file" class="button" value="사진업로드">                    
+                            <label for="imgfile">사진업로드</label>
+                            <input id="long" type="button" class="button" value="일기장 불러오기">
+                        </div>
+                    
+                        <textarea placeholder="물품 소개를 입력해주세요"></textarea>
+
+                        <div id="submit">
+                            <input type="button" id="submitBtn" value="올리기">
+                        </div>
+                    
+                    </form>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
